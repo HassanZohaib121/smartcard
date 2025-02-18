@@ -55,9 +55,9 @@ export default function SmartCard() {
   }
 
   const scheduleCalendarMeeting = () => {
-    const title = encodeURIComponent("Meeting with Professional")
+    const title = encodeURIComponent("Meeting with Hassan")
     const details = encodeURIComponent("Meeting scheduled via Smart Card")
-    const location = encodeURIComponent("Boulevard Plaza, Tower 2, Dubai, U.A.E")
+    const location = encodeURIComponent("Sargodha, Punjab, Pakistan")
     window.open(`https://calendar.google.com/calendar/u/0/r/eventedit?text=${title}&details=${details}&location=${location}`)
   }
 

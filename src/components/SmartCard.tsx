@@ -18,11 +18,11 @@ export default function SmartCard() {
       // Create vCard content
       const vCardContent = `BEGIN:VCARD
       VERSION:3.0
-      FN:Professional
-      TITLE:CEO
+      FN:Hassan
+      TITLE:Web Developer
       ORG:SMART CARD
-      ADR:;;Boulevard Plaza, Tower 2;Dubai;;U.A.E
-      TEL;TYPE=WORK,VOICE:+1234567890
+      ADR:;;Sargodha;Punjab;;Pakistan
+      TEL;TYPE=WORK,VOICE:+923106025047
       END:VCARD`
 
       // Create a Blob with the vCard content

@@ -62,7 +62,7 @@ export default function SmartCard() {
   }
 
   const openLocation = () => {
-    const address = encodeURIComponent("Boulevard Plaza, Tower 2, Dubai, U.A.E")
+    const address = encodeURIComponent("Sargodha, Punjab, Pakistan")
     window.open(`https://www.google.com/maps/search/?api=1&query=${address}`)
   }
 

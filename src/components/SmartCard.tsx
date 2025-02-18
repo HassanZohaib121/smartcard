@@ -82,7 +82,7 @@ export default function SmartCard() {
         <CardHeader className="flex flex-col items-center space-y-2">
           <div className="flex justify-between w-full px-4">
             <Image
-              src="/h.png"
+              src="./h.png"
               alt="Smart Card Logo"
               width={32}
               height={32}
